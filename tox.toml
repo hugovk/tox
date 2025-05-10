@@ -91,7 +91,6 @@ commands = [
     "uv",
     "build",
     "--sdist",
-    "--wheel",
     "--out-dir",
     "{env_tmp_dir}",
     ".",
