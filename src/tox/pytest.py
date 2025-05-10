@@ -45,7 +45,6 @@ else:
     CaptureFixture = pytest.CaptureFixture
 
 os.environ["PIP_DISABLE_PIP_VERSION_CHECK"] = "1"
-os.environ["PIP_NO_PYTHON_VERSION_WARNING"] = "1"
 
 if fs_supports_symlink():  # pragma: no cover # used to speed up test suite run time where possible
     os.environ["VIRTUALENV_SYMLINK_APP_DATA"] = "1"
